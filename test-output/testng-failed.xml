@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="Test(failed)">
+    <classes>
+      <class name="practice_package.multipleTestCase">
+        <methods>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="shikhar"/>
+          <include name="BM"/>
+          <include name="virat"/>
+          <include name="rohit"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- practice_package.multipleTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
